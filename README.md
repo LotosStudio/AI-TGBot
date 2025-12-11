@@ -19,8 +19,8 @@ To install the pip package manager, run:
 ## Step 3: Install Required Libraries 📦
 Now, install all the dependencies for the bot via pip:
 
-`sudo pip install telebot
-sudo pip install requests`
+`sudo pip install telebot`
+`sudo pip install requests`
 
 ## Step 4: Clone the repository or download the file
 Download or clone the repository to your server. If you’re cloning the repository:
