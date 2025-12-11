@@ -1,14 +1,14 @@
 # AI-TGBot
 Welcome to the AI-TGBot repository! Follow these steps to install and run the bot on your server.
 
-# Step 1: Install Python 3 on your server
-## Ubuntu/Debian:
+## Step 1: Install Python 3 on your server
+### Ubuntu/Debian:
 `sudo apt install python3`
 
-## Fedora:
+### Fedora:
 `sudo dnf install python3`
 
-## Arch:
+### Arch:
 `sudo pacman -S python`
 
 # Step 2: Install pip (Python package manager)
