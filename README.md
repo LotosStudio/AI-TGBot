@@ -3,7 +3,7 @@ Welcome to the AI-TGBot repository! Follow these steps to install and run the bo
 
 #Step 1: Install Python 3 on your server
 Ubuntu/Debian:
-`sudo apt install python3`
+```sudo apt install python3```
 
 ##Fedora:
 `sudo dnf install python3`
