@@ -1,38 +1,39 @@
 # AI-TGBot
-A simple guide to install and run AI-TGBot on your server.
+Welcome to the AI-TGBot repository! Follow these steps to install and run the bot on your server.
 
-📌 1. Install Python 3
+#Step 1: Install Python 3 on your server
+Ubuntu/Debian:
+`sudo apt install python3`
 
-Make sure your system has Python 3 installed.
+##Fedora:
+`sudo dnf install python3`
 
-Ubuntu / Debian
-sudo apt install python3
+##Arch:
+`sudo pacman -S python`
 
-Fedora
-sudo dnf install python3
+#Step 2: Install pip (Python package manager)
+To install the pip package manager, run:
 
-Arch Linux
-sudo pacman -S python
+`sudo apt install python3-pip`
 
-📌 2. Install pip (Python package manager)
-sudo apt install python3-pip
+#Step 3: Install Required Libraries 📦
+Now, install all the dependencies for the bot via pip:
 
-📦 3. Install required libraries
+`sudo pip install telebot
+sudo pip install requests`
 
-These are the main dependencies used by the bot:
+#Step 4: Clone the repository or download the file
+Download or clone the repository to your server. If you’re cloning the repository:
 
-sudo pip install telebot
+`git clone https://github.com/LotosStudio/AI-TGBot.git
+cd AI-TGBot`
 
-sudo pip install requests
+Alternatively, just upload the AI.py file to your server.
 
-📥 4. Download or clone the repository
-Clone via Git
-git clone https://github.com/LotosStudio/AI-TGBot.git
-cd AI-TGBot
+#Step 5: Run the bot 🎉
+To start the bot, use the following command:
 
-Or manually upload AI.py
+`python3 AI.py`
 
-If you prefer, just upload the file directly to your server.
 
-🚀 5. Run the bot
-python3 AI.py
+Now your bot is up and running! 🎉
